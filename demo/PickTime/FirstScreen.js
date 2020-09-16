@@ -65,8 +65,7 @@ export  class FirstScreen extends Component{
 export default Stack=createStackNavigator(
     {
         First:{screen:FirstScreen},
-        PickTime:{screen:PickTimeScreen},
-        
+        PickTime:{screen:PickTimeScreen},       
         RentList:{screen:RentListScreen}
     },
     {
