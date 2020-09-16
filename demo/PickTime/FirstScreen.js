@@ -66,6 +66,7 @@ export default Stack=createStackNavigator(
     {
         First:{screen:FirstScreen},
         PickTime:{screen:PickTimeScreen},
+        
         RentList:{screen:RentListScreen}
     },
     {
